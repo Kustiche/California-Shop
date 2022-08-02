@@ -20,12 +20,15 @@ body {
 
 .hero {
   padding-top: 45px;
+  padding-bottom: 40px;
 }
 .hero__wrap {
   padding: 0 55px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: #DCE5E2;
+  border-radius: 32px;
 }
 .hero__contant {
   max-width: 590px;
@@ -69,11 +72,78 @@ body {
 .link:hover {
   transform: scale(95%);
 }
-.link--already {
-  max-width: 170px;
-}
 
-.container {
-  background-color: #DCE5E2;
-  border-radius: 32px;
+.products {
+  padding-top: 40px;
+  padding-bottom: 35px;
+}
+.products__wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.products__title {
+  margin: 0;
+  margin-bottom: 10px;
+  font-family: "Readex Pro", sans-serif;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 52px;
+  color: #000000;
+}
+.products__text {
+  margin: 0;
+  margin-bottom: 60px;
+  font-family: "Readex Pro", sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 17px;
+  color: #000000;
+}
+.products__cards-wrap {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.products__card {
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.products__image {
+  width: 247px;
+  height: auto;
+  margin-bottom: 35px;
+}
+.products__heading {
+  margin: 0;
+  margin-bottom: 10px;
+  font-family: "Readex Pro", sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 28px;
+  color: #000000;
+}
+.products__heading--capitalize {
+  text-transform: capitalize;
+}
+.products__desc {
+  margin: 0;
+  margin-bottom: 10px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #4B4B4B;
+}
+.products__desc--further {
+  margin-bottom: 25px;
+}
+.products__price {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
 }/*# sourceMappingURL=style.css.map */

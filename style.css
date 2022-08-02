@@ -1,1 +1,79 @@
-/*# sourceMappingURL=style.css.map */
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1325px;
+  padding: 0 15px;
+}
+
+.hero {
+  padding-top: 45px;
+}
+.hero__wrap {
+  padding: 0 55px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hero__contant {
+  max-width: 590px;
+}
+.hero__title {
+  margin: 0;
+  margin-bottom: 20px;
+  font-family: "Readex Pro", sans-serif;
+  font-weight: 400;
+  font-size: 58px;
+  line-height: 70px;
+  color: #000000;
+}
+.hero__text {
+  margin: 0;
+  margin-bottom: 30px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
+.hero__image {
+  width: 390px;
+  height: auto;
+}
+
+.link {
+  display: inline-block;
+  padding: 15px 55px;
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+  border: 1px solid #000000;
+  border-radius: 200px;
+  transition: transform 0.4s;
+}
+.link:hover {
+  transform: scale(95%);
+}
+.link--already {
+  max-width: 170px;
+}
+
+.container {
+  background-color: #DCE5E2;
+  border-radius: 32px;
+}/*# sourceMappingURL=style.css.map */

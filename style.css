@@ -89,6 +89,7 @@ body {
   font-weight: 400;
   font-size: 42px;
   line-height: 52px;
+  text-align: center;
   color: #000000;
 }
 .products__text {
@@ -98,6 +99,7 @@ body {
   font-weight: 400;
   font-size: 13px;
   line-height: 17px;
+  text-align: center;
   color: #000000;
 }
 .products__cards-wrap {
@@ -146,4 +148,90 @@ body {
   font-size: 18px;
   line-height: 22px;
   color: #000000;
+}
+
+.best-offers {
+  padding-top: 35px;
+  padding-bottom: 90px;
+}
+.best-offers__wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.best-offers__title {
+  margin: 0;
+  margin-bottom: 10px;
+  font-family: "Readex Pro", sans-serif;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 52px;
+  text-align: center;
+  color: #000000;
+}
+.best-offers__text {
+  margin: 0;
+  margin-bottom: 55px;
+  font-family: "Readex Pro", sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 17px;
+  text-align: center;
+  color: #000000;
+  text-transform: capitalize;
+}
+.best-offers__excerpt {
+  text-transform: uppercase;
+}
+.best-offers__cards {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.best-offers__card {
+  padding: 60px 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 415px;
+  background-color: #F8F9FA;
+  border-radius: 16px;
+}
+.best-offers__desc {
+  font-family: "Readex Pro", sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 17px;
+  text-align: center;
+  color: #000000;
+}
+.best-offers__heading {
+  margin: 0;
+  margin-bottom: 30px;
+  font-family: "Readex Pro", sans-serif;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 35px;
+  text-align: center;
+  color: #000000;
+}
+
+.link {
+  display: inline-block;
+  padding: 15px 55px;
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+  border: 1px solid #000000;
+  border-radius: 200px;
+  transition: transform 0.4s;
+}
+.link:hover {
+  transform: scale(95%);
+}
+.link--wide {
+  padding: 15px 65px;
 }/*# sourceMappingURL=style.css.map */
